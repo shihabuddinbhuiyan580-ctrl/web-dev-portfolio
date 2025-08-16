@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* shared styles */
+.scd-bg{
+    background-color: #fff8f3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -15,7 +18,21 @@
     padding: 18px 35px;
     border: none;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-des ,.about-title{
+    font-size: 18px;
+    color: #757575;
+}
 
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* nav style */
 .header{
@@ -70,4 +87,20 @@ nav ul{
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
+}
+
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-des{
+    font-weight: bold;
 }
